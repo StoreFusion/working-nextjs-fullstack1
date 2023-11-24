@@ -15,7 +15,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to The invoice and link aggregator for cutomers</strong> This is the example for the{' '}
+            <strong>Welcome to The Invoice and link aggregator for customers</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               built with Next.js 
             </a>
