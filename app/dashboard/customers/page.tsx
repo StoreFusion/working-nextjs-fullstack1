@@ -1,6 +1,7 @@
 import { fetchFilteredCustomers } from '@/app/lib/data';
 import CustomersTable from '@/app/ui/customers/table';
 import { Metadata } from 'next';
+console.log("a simple check on status")
 
 export const metadata: Metadata = {
   title: 'Customers',
