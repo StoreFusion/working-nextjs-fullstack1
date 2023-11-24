@@ -10,7 +10,7 @@ import {
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from './button';
 import { useFormState, useFormStatus } from 'react-dom';
-import { AllUsers } from '../lib/placeholder-data';
+
 
 export default function LoginForm() {
   const [state, dispatch] = useFormState(authenticate, undefined);
@@ -48,10 +48,7 @@ export default function LoginForm() {
             >
               Password
             </label>
-            userdets: 
-            <script>
-              console.log(AllUsers);
-            </script>
+            
             <div className="relative">
               <input
                 className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-500"
