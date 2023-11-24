@@ -187,12 +187,12 @@ module.exports = {
   revenue,
 };
 
-export default async function AllUsers(
-  return ( 
-    <div>
-    user dets are :
-    the user mail : users.email
-    the user password : users.password
-    </div>
-  )
-)
+// export default async function AllUsers({
+//   return ( 
+//     <div>
+//     user dets are :
+//     the user mail : users.email
+//     the user password : users.password
+//     </div>
+//   )
+// )}

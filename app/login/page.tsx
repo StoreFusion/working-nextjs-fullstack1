@@ -1,6 +1,6 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import LoginForm from '@/app/ui/login-form';
-import { AllUsers } from '../lib/placeholder-data';
+
 
 export default function LoginPage() {
   return (
@@ -13,9 +13,7 @@ export default function LoginPage() {
         </div>
         <LoginForm />
       </div>
-      <script>
-        console.log(AllUsers);
-        </script>
+      
     </main>
   );
 }
