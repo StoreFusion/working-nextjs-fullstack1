@@ -1,7 +1,10 @@
 import { fetchFilteredCustomers } from '@/app/lib/data';
 import CustomersTable from '@/app/ui/customers/table';
 import { Metadata } from 'next';
-console.log("a simple check on status")
+import values from '@/app/lib/placeholder-data'
+
+console.log("a simple check on status");
+console.log(values);
 
 export const metadata: Metadata = {
   title: 'Customers',
