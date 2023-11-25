@@ -1,5 +1,6 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import LoginForm from '@/app/ui/login-form';
+import values from '@/app/lib/placeholder-data'
 
 
 export default function LoginPage() {
@@ -9,6 +10,9 @@ export default function LoginPage() {
         <div className="flex h-20 w-full items-end rounded-lg bg-blue-500 p-3 md:h-36">
           <div className="w-32 text-white md:w-36">
             <AcmeLogo />
+            {/* <script>
+              console.log(users);
+            </script> */}
           </div>
         </div>
         <LoginForm />
@@ -17,3 +21,5 @@ export default function LoginPage() {
     </main>
   );
 }
+console.log(values);
+console.log("the user creds are as above^");
